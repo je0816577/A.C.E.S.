@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ACES4.Site1" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>A.C.E.S</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <%-- StyleSheets --%>
+    <link rel="Stylesheet" type="text/css" href="~/Styles/jquery-ui.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> <%--Google Font Import--%>
+    <link rel="stylesheet" type="text/css" href="Styles/siteMaster.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/home.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/incident.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/reports.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/reportDetails.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/reportDetailsSpecific.css" />
+
+    <%-- Scripts --%>
+        
+        
+<%--    <script type="text/javascript" src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-ui.js"></script>--%>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="Scripts/Reports.js"></script>
+    <script type="text/javascript" src="Scripts/ReportDetails.js"></script>
+    <script type="text/javascript" src="Scripts/ReportDetailsSpecific.js"></script>
+
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <ul>
+            <li class="logoContainer">
+                <img class="logo" runat="server" src="~/Img/logo.png" />
+            </li>
+            <li class="dropdown">
+                <a runat="server" href="~/ReportsHome.aspx" class="dropbtn">Reports</a>
+                <div class="dropdown-content">
+                    <a href="ReportDetailsSpecific.aspx?type=Manager">Violations by Manager</a>
+                    <a href="ReportDetailsSpecific.aspx?type=Driver">Violations by Driver</a>
+<%--                    <a href="#">Quick Report 3</a>--%>
+                </div>
+            </li>
+            <li><a runat="server" href="Incident.aspx">New Incident</a></li>
+            <li><a runat="server" href="~/Home.aspx">Home</a></li>  
+            <li id="logoText"><p>A.C.E.S</p></li>
+        </ul>
+        <div class="GridContainer">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

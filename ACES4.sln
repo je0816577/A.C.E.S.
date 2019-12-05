@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACES4", "ACES4.csproj", "{7BCE5DC7-8F76-4417-B42C-8033B49C6A92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BCE5DC7-8F76-4417-B42C-8033B49C6A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCE5DC7-8F76-4417-B42C-8033B49C6A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCE5DC7-8F76-4417-B42C-8033B49C6A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCE5DC7-8F76-4417-B42C-8033B49C6A92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B0FAC73-D185-4900-84A8-53420EE1D8FA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cisteam.otc.edu/tfs/260-wilsonlogistics
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ACES4.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal

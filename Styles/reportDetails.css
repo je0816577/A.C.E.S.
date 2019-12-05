@@ -1,0 +1,31 @@
+﻿#reportDetailsGridViewContainer {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    min-width: 90%;
+    min-height: 900px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 25px;
+}
+#reportDetailsGridViewContainer * {
+    font-size: 20px;
+}
+#reportDetailsTopView {
+    display: block;
+    height: 100%;
+    width: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+}
+#reportDetailsBottomView{
+    display:block;
+    height:100%;
+    width:100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+

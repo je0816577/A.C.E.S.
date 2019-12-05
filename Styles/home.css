@@ -1,0 +1,54 @@
+﻿
+/*Home.aspx styles
+    Google font import usage statment:
+    font-family: 'Roboto', sans-serif;
+
+*/
+
+
+#HomeGridViewTitle {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    padding-bottom: 75px;
+    /*border-bottom: 2px solid #333;*/
+}
+
+
+#HomeGridViewContainer {
+    margin-top: 50px;
+    min-height: 100%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: start;
+    width: 100%;
+}
+
+#SearchContainer {
+    display: block;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 50%;
+    justify-self: start;
+    margin-top: 3%;
+}
+
+#SearchContainer span {
+    display: block;
+    width: auto;
+    margin-top: .6%;
+}
+
+.drCodebtn {
+    width: 15% !important;
+    color: white !important;
+}
+.btncolor {
+    background-color: black !important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

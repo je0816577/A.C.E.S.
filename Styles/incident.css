@@ -1,0 +1,173 @@
+﻿/*Incident.aspx styles*/
+
+#IncidentGridViewTitle {
+    display: none;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 312.5%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#IncidentGridViewContainer {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 15% 30% 25% 25%;
+    grid-template-rows: 75px auto auto 75px 100px;
+    grid-gap: 2px;
+}
+
+#drCodeContainer {
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: start;
+    align-self: end;
+}
+
+.drCodeText {
+    display: block;
+    float: left;
+    width: 40%;
+    font-size: 155%;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    min-height: 30px;
+    height: 100%;
+    margin-right: 1%;
+    margin-top: 3.5px;
+}
+
+.drCodeTextBox {
+    display: block;
+    float: left;
+    
+    width: 15%;
+    min-height: 30px;
+    height: 60%;
+    margin-right: 10px;
+    margin-top: 6px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.drCodebtn {
+    display: block;
+    float: left;
+    min-width: 100px;
+    width: 30%;
+    min-height: 30px;
+    height: 60%;
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5.6px;
+    border-radius: 25px;
+}
+
+.incidentFieldsContainer {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: block;
+    width: 55%;
+    justify-self: end;
+}
+
+.incidentFieldsContainer * {
+    display: block;
+    width: 100%;
+    font-size: 150%;
+    height: 8%;
+    margin-top: 1.5px;
+    margin-bottom: 1.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.txtFieldContainer {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 55%;
+    height: 100%;
+    display: block;
+    justify-self: start;
+    margin-top: 5px;
+
+}
+
+.txtFieldContainer * {
+    display: block;
+    width: 100%;
+    height: 8.8%;
+    background-color: white;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    font-size: 125%;
+    border-radius: 25px;
+}
+
+
+
+#checkBoxes {
+    display: block;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: start;
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#checkBoxes * {
+    transform: scale(1.05);
+    padding-left: 5px;
+}
+
+#notesContainer {
+    display: block;
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    width: 75%;
+    min-height: 100px;
+    justify-self: center;
+}
+
+#notesContainer p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 156.25%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.notesTextBox {
+    width: 100%;
+    min-height: 300px;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 160%;
+}
+
+.btnSubmit {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    justify-self: end;
+    align-self: center;
+    width: 125px;
+    min-height: 40px;
+    font-size: 156.25%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}
+
+#errorMessages {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+}

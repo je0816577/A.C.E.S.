@@ -1,0 +1,125 @@
+﻿
+/*ReportsHome.aspx styles*/
+
+#reportsHomeGridViewTitle {
+    display: none;      /*Change display to block to add title, change title text on ReportsHome.aspx*/
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 312.5%;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#reportsGridViewContainer {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    min-width: 90%;
+    min-height: 900px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 10%;
+    grid-template-rows: 60% 30% 10%;
+    grid-gap: 10px;
+}
+
+
+#ReportController {
+    display: block;
+    width: 100%;
+    height: 100%;
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+
+}
+
+#ChartTopCenter {
+    display: block;
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    /*background-color: black;*/
+}
+    #ChartTopCenter * {
+        font-size: 20px;
+    }
+
+#ChartCenterLeft {
+    display: block;
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+#ChartCenterLeft * {
+    font-size: 14px;
+}
+
+
+#ChartCenterCenter {
+    display: block;
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+#ChartCenterCenter * {
+    font-size: 14px;
+}
+
+#ChartCenterRight {
+    display: block;
+    width: 100%;
+    height: 100%;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#ChartCenterRight * {
+    font-size: 14px;
+}
+
+.btnCCL {
+    display: block;
+    justify-self: center;
+    align-self: start;
+    width: 125px;
+    min-height: 50px;
+    font-size: 156.25%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.btnCCC {
+    display: block;
+    justify-self: center;
+    align-self: start;
+    width: 125px;
+    min-height: 50px;
+    font-size: 156.25%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.btnCCR {
+    display: block;
+    justify-self: center;
+    align-self: start;
+    width: 125px;
+    min-height: 50px;
+    font-size: 156.25%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+
+
+/*#ContentPlaceHolder1_TestId {
+    font-size: 200px;
+}*/
